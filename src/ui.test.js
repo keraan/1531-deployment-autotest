@@ -1,4 +1,5 @@
 import request from "sync-request-curl"
+// Format: "CLASS_GROUP" e.g "W11A_FREDDO"
 const GROUP = "";
 
 const URL = `1531-24t3-${GROUP.split("_")[0]}-${GROUP.split("_")[1]}.vercel.app`;
